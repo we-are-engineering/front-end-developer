@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <style>
+            .main{
+            width: 100%;
+            height: 100vh;
+            background-image: url(main.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .menu{
+            width: 100%;
+            float: left;
+            height: 70px;
+            background-color: black;
+            position: fixed;
+        }
+        .main_head{
+            background-color: black;
+            width: 20%;
+            height: 30px;
+            padding-top: 10px;
+        }
+        .main_head h1{
+            color: rgb(8, 247, 227);
+            padding-top: 1px;
+            font-size: 30px;
+            padding-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+          
+        }
+        .main_head h1:hover{
+            border-bottom: 1px solid aqua;
+        }
+        ul{
+            float: left;
+            display: flex;
+            width: 100%;
+        
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            padding-left: 0px;
+            gap: 10px;
+            background-color: black;
+        }
+        ul li{
+            list-style: none;
+            margin-left: 62px;
+            margin-top: 1px;
+            font-size: 25px;
+            background-color: transparent;
+            
+        }
+        ul li a{
+            text-decoration: none;
+            color: rgb(245, 242, 242);
+            font-family: Arial;
+            font-weight: bold;
+            /* transition: 0.4 ease-in-out; */
+            transition: 0.5s;
+    
+            animation: slideUP .5s ease forwards;
+            animation-delay: calc(.2s * var(--i));
+
+        }
+        ul li a:hover{
+            color: #0fdfff;
+            border-top: 1px solid aqua;
+            border-bottom: 1px solid aqua;
+
+        }
+        .mainform{
+            padding-left: 1100px;
+            padding-top: 200px;
+        }
+        .form{ 
+           width: 250px;
+           height: 380px; 
+           background-color:black;
+           border: 1px solid black;
+           top: 150px;
+           left: 1050px;
+           border-radius: 10px;
+           padding: 25px;
+        }
+       .form h1{
+           width: 220px;
+           font-family: sans-serif;
+           text-align: center;
+           color: #0a0a0a;
+           font-size: 22px;
+           background-color: rgb(18, 239, 54);
+           border-radius: 10px;
+           margin: 2px;
+           padding: 8px;
+       }
+       .form input{
+           width: 240px;
+           height: 35px;
+           background: black;
+           border-bottom: 1px solid aqua;
+           border-top: none;
+           border-right: none;
+           border-left: none;
+           color: white;
+           font-size: 15px;
+           letter-spacing: 1px;
+           margin-top: 32px;
+           font-family: sans-serif;
+
+       }
+       .form input:focus{
+           outline: none;
+           
+       }
+       ::placeholder{
+           color: #fff;
+           font-family: Arial;
+
+       }
+       .btrn{
+           width: 240px;
+           height: 40px;
+           background: #ff7200;
+           border: none;
+           margin-top: 30px;
+           font-size: 18px;
+           border-radius: 10px;
+           cursor: pointer;
+           color: white;
+       }
+       .btrn:hover{
+           background-color: #13f92e;
+           color: #0fdfff;
+
+       }
+       .btrn a{
+           text-decoration: none;
+           color: black;
+           font-weight: bold;
+       }
+       .form .link{
+           font-family: Arial;
+           font-size: 17px;
+           padding-top: 20px;
+           text-align: center;
+           color: #00b3ff;
+
+       }
+       .form .link a{
+           text-decoration: none;
+           color: #ff7200;
+
+       }
+       .form .link a:hover{
+           color: aqua;
+       }
+         </style>
+</head>
+<body>
+    <div class="main">
+           
+        <div>
+            
+            <div class="menu">
+                <div class="main_head">
+                    <h1>Royal Bakery</h1>
+                </div>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                   
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+           <div class="mainform">
+            <div class="form">
+                <h1>Login Here</h1>
+                <input type="Username" name="User" placeholder="Enter Username Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+
+                <button class="btrn"><a href="#">Login</a></button>
+
+                <p class="link">Don't Have Account<br>
+                <a href="time.html">Register Here<a></a></a></p>
+                
+             </div>
+           </div>
+        </div>
+     </div>
+</body>
+</html>

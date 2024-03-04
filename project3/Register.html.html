@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     
+        .main{
+            border: 1px solid black;
+          
+         
+            text-align: center;
+          
+            /* background-color: rgb(194, 242, 242); */
+        }
+        .headline{
+            width: 100%;
+            background-color: black;
+         /* background: linear-gradient(to bottom left,rgb(0, 255, 94),rgb(0, 247, 243)); */
+            height: 100px;
+            border: 2px solid black;
+            padding-top: 2px;
+           
+            
+        }
+        .headline h1{
+            padding-bottom: 20px;
+            font-size: 50px;
+            background: transparent;
+            color:rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            word-spacing: 2px;
+            
+        }
+        .headline h1:hover{
+            color: #00ffdd;
+           
+        }
+        .form{
+            background-image: url(bg_1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        .bha{
+            padding-top: 30px;
+        }
+        #head1{
+            padding-top: 25pxpx;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+           
+            background: transparent;
+            font-style: italic;
+            color: aqua;
+
+        }
+        #First{
+            height: 30px;
+           width: 15%;
+            color: black;
+           border-bottom: 2px solid aqua;
+            font-size: 25px;
+            padding-left: 30px;
+            background-color: black;
+            
+          
+        }
+        #First:hover{
+            background-color:  aqua rgb(3, 227, 243);
+        }
+        .ves{
+            padding-top: 30px;
+
+        }          
+        
+        #head2{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+        }
+        #Last{
+            height: 30px;
+            width: 15%;
+            color: rgb(255, 255, 255);
+            border-bottom: 2px solid aqua;
+            background-color: black;
+            font-size: 23px;
+            padding-left: 30px;
+        }
+        #Last:hover{
+            background-color: aqua;
+        }
+        
+        #head3{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:aqua;
+            font-style: italic;
+        }
+        #Contact{
+            height: 30px;
+            width: 17%;
+            color: black;
+           border-bottom: 2px solid aqua;
+           background-color: black;
+            font-size: 23px;
+            padding-left: 15px;
+        }
+        #Contact:hover{
+            background-color: rgb(200, 255, 0);
+        }
+        #head4{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+        }
+        #email{
+            height: 30px;
+            width: 15%;
+            color: black;
+           border-bottom: 2px solid aqua;
+           background-color: black;
+            font-size: 23px;
+            padding-left: 30px;
+        }
+        #email:hover{
+            background-color: rgb(255, 170, 0);
+        }
+        #head5{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aqua;
+            font-style: italic;
+        }
+        #address{
+            height: 30px;
+            width: 15%;
+            color: black;
+           border-bottom: 2px solid aqua;
+           background-color: black;
+            font-size: 23px;
+            padding-left: 30px;
+        }
+        #address:hover{
+            background-color: aqua;
+        }
+        #head6{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-style: italic;
+        }
+        #password{
+            height: 30px;
+            width: 15%;
+            color: black;
+            border-bottom: 2px solid aqua;
+            background-color: black;
+            font-size: 23px;
+            padding-left: 30px;
+        }
+        #password:hover{
+            background-color: aqua;
+        }
+        .rad{
+            padding-top: 20px;
+        }
+        #head7{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:aqua;
+            font-style: italic;
+        }
+        #Con_pass{
+            height: 30px;
+            width: 15%;
+            color: black;
+            font-size: 23px;
+            border-bottom: 2px solid aqua;
+            background-color: black;
+            padding-left: 30px;
+        }
+        #Con_pass:hover{
+            background-color: aqua;
+        }
+        .shubhagi{
+            padding-bottom: 20px;
+        }
+        .btrn{
+            height: 50px;
+            width: 15%;
+           color: rgb(9, 10, 10);
+           background-color: rgb(223, 239, 239);
+           font-size: 35px;
+           font-style: italic;
+           border-radius: 0px 25px 0px 25px;
+        }
+        .btrn:hover{
+            background-color: rgba(0, 255, 247, 0.856);
+        }
+       
+    </style>
+    
+</head>
+<body>
+    
+<div class=" main">
+        <div class="headline">
+        <h1>---Registartion Form---</h1>
+       </div>
+       <div class="form">
+        <form action="" method="post" name="myform" onsubmit="return validationform()">
+           
+    <div class="bha">
+        
+        <label for="First" id="head1">First_name:-</label>
+        <input type="text" name="First_name" id="First" placeholder="First name">
+    </div>
+            <br>
+            <br>
+    <div class="vesh">
+        <label for="Last" id="head2">Last_name:-</label>
+        <input type="text" name="Last_name" id="Last" placeholder="Last name:">     
+    </div>   
+            <br>
+            <br>
+    <div >
+        <label for="Contact" id="head3">Phone_number:-</label>
+        <input type="text" name="Contact" id="Contact" placeholder=" Contact No">
+    </div>
+            <br>
+            <br>
+    <div class="sha">
+        <label for="E-mail" id="head4">E-mail:-</label>
+        <input type="email" name="email" id="email" placeholder=" Email Id ">
+    </div>
+            <br>
+            <br>
+    <div>
+        <label for="address" id="head5">Address:-</label>
+        <textarea name="address" id="address" cols="25" rows="2" placeholder="Address"></textarea>
+    </div>
+            <br>
+            <br>
+            <label for="pass" id="head6">Password:-</label>
+            <input type="password" name="pass" id="password" placeholder="Password">
+            <br>
+            <br>
+    <div class="rad">
+        <label for="Con_pass" id="head7">Conform_password:-</label>
+        <input type="password" name="Con_pass" id="Con_pass" placeholder="Password">
+    </div>
+            <br>
+            <br>
+           <div class="shubhagi" >
+           <button class="btrn">Submit</button>
+           </div>
+          
+            
+        </form>
+       </div>
+</div>
+
+<script>
+   function validationform(){
+    var a=document.myform.First_name.value;
+    var b=document.myform.Last_name.value;
+    var c=document.myform.Contact.value;
+    
+    var d=document.myform.email.value;
+    var e=document.myform.address.value;
+    var f=document.myform.pass.value;
+    var g=document.myform.Con_pass.value;
+
+    if(a==""||b==""||c==""||d==""||e==""||f==""||g==""){
+        alert("Please enter the all Field")
+        return false
+    }
+    else if(isNaN(c)){
+        alert("Please enter the number")
+        return false
+    }
+    else if(c.length>=11){
+        alert("Please enter the valid number")
+        return false
+    }
+    else if(f!=g){
+        alert("Your password don't match please enter the same password")
+        return false
+        }
+   }
+</script>
+
+</body>
+</html>

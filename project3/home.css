@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 109vh;
+    background-image: url(bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slider 20s linear infinite
+}
+@keyframes slider {
+    0%{
+        background-image: url(bg_1.jpg);
+    }
+    25%{
+        background-image: url(bg_2.jpg);
+    }
+    50%{
+        background-image: url(bg_3.jpg);
+    }
+    75%{
+        background-image: url(bg_4.jpg);
+    }
+    100%{
+        background-image: url(bg_1.jpg);
+    }
+}
+.menu{
+    width: 100%;
+    float: left;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+}
+.main_head{
+    background-color: black;
+    width: 20%;
+}
+.main_head h1{
+    color: rgb(8, 247, 227);
+    padding-top: 1px;
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+   border-bottom: 1px solid white;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 300px;
+    gap: 2px;
+}
+ul li{
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 1px;
+    font-size: 25px;
+    background-color: transparent;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(245, 242, 242);
+    font-family: Arial;
+    font-weight: bold;
+    /* transition: 0.4 ease-in-out; */
+    transition: 0.5s;
+
+    animation: slideUP .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+
+}
+ul li a:hover{
+    color: #0fdfff;
+    border-top: 1px solid aqua;
+    border-bottom: 1px solid aqua;
+    font-size: 27px;
+
+}
+.mainform{
+    padding-left: 1150px;
+    padding-top: 90px;
+}
+.form{ 
+   width: 250px;
+   height: 370px; 
+   background-color:transparent;
+   border: 1px solid rgb(249, 249, 249);
+   top: 150px;
+   left: 50px;
+   border-radius: 10px;
+   padding: 25px;
+}
+.form:hover{
+    background-color: rgb(95, 93, 93);
+}
+.form h1{
+   width: 220px;
+   font-family: sans-serif;
+   text-align: center;
+   color: #00ffd0;
+   font-size: 22px;
+   background-color: rgb(0, 0, 0);
+   border-radius: 10px;
+   margin: 2px;
+   padding: 8px;
+}
+.form input{
+   width: 240px;
+   height: 35px;
+   background: transparent;
+   border-bottom: 1px solid aqua;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   color: rgb(1, 234, 251);
+   font-size: 15px;
+   letter-spacing: 1px;
+   margin-top: 32px;
+   font-family: sans-serif;
+
+}
+.form input:hover{
+    color: rgb(207, 228, 225);
+    font-size: 20px;
+}
+.form input:focus{
+   outline: none;
+   
+}
+::placeholder{
+   color: #05fff7;
+   font-family: Arial;
+
+}
+.btrn{
+   width: 240px;
+   height: 40px;
+   background: #000000;
+   border: none;
+   margin-top: 30px;
+   font-size: 18px;
+   border-radius: 10px;
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+}
+.btrn:hover{
+   background-color: #03fdcb;
+   color: #0fdfff;
+
+}
+.btrn a{
+   text-decoration: none;
+   color: rgb(251, 251, 251);
+   font-weight: bold;
+}
+.form .link{
+   font-family: Arial;
+   font-size: 17px;
+   padding-top: 20px;
+   text-align: center;
+   color: #00b3ff;
+
+}
+.form .link a{
+   text-decoration: none;
+   color: #ff7200;
+
+}
+.form .link a:hover{
+   color: aqua;
+}
+.border{
+background-color: transparent;
+width: 100%;
+height: 1px;
+border-bottom: 2px solid aqua;
+}
+.lower{
+width: 75%;
+height: 40vh;
+
+background-color: transparent;
+}
+.upper-side{
+height: 35vh;
+width: 1000px;
+background-color: transparent;
+padding-left: 90px;
+}
+.slide{
+width: 950px;
+height: 30vh;
+display: flex;
+padding-top: 10px;
+gap: 15px;
+}
+.box1{
+width: 300px;
+height: 200px;
+background-color: transparent;
+}
+.box1 img{
+border-radius: 50%;
+
+}
+.box1 h3{
+font-size: 30px;
+color: rgb(212, 212, 212);
+padding-left: px;
+padding-top: 10px;
+animation: box1 20s linear infinite; 
+}
+@keyframes box1 {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box1 p{
+font-size: 25px;
+color: rgb(223, 223, 223);
+padding-left: px;
+padding-top: 5px;
+
+animation: boxp 20s linear infinite; 
+}
+@keyframes boxp {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box2{
+width: 300px;
+height: 200px;
+background-color: transparent;
+}
+.box2 img{
+border-radius: 50%;
+
+}
+.box2 h3{
+font-size: 30px;
+color: rgb(255, 255, 255);
+padding-left: px;
+padding-top: 10px;
+
+animation: box2 20s linear infinite; 
+}
+@keyframes box2 {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box2 p{
+font-size: 25px;
+color: rgb(247, 247, 247);
+padding-left: px;
+padding-top: 5px;
+
+animation: box2p 20s linear infinite; 
+}
+@keyframes box2p {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box3{
+width: 300px;
+height: 200px;
+background-color: transparent;
+}
+.box3 img{
+/* padding-left: 80px; */
+border-radius: 50px;
+
+
+}
+.box3 h3{
+font-size: 30px;
+color: rgb(245, 245, 245);
+padding-left: px;
+padding-top: 10px;
+
+animation: box3 20s linear infinite; 
+}
+@keyframes box3 {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box3 p{
+font-size: 25px;
+color: rgb(230, 230, 230);
+padding-left: px;
+padding-top: 5px;
+
+animation: box3p 20s linear infinite; 
+}
+@keyframes box3p {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box4 img{
+/* padding-left: 80px; */
+border-radius: 100px;
+
+
+}
+.box4 h3{
+font-size: 30px;
+color: rgb(255, 255, 255);
+padding-left: px;
+padding-top: 10px;
+
+animation: box4 20s linear infinite; 
+}
+@keyframes box4 {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}
+.box4 p{
+font-size: 25px;
+color: rgb(247, 247, 247);
+padding-left: px;
+padding-top: 5px;
+animation: box4p 20s linear infinite; 
+}
+@keyframes box4p {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: white;
+    }
+}

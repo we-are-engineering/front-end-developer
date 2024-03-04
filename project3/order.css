@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(order_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lower-main{
+    height: 100vh;
+    width: 100%;
+    padding-left: 250px;
+    padding-top: 40px;
+}
+.order-box{
+    height: 600px;
+    width: 660px;
+    background-color: rgb(255, 255, 255);
+}
+.headline{
+    height: 90px;
+    width: 100%;
+    background-color: white;
+}
+.sub-head{
+    position: relative;
+}
+.sub-head span{
+    padding-left: 260px;
+    font-size: 50px;
+    color: black;
+   font-weight: bolder;
+    font-style: italic;
+    padding-top:48px;
+    position: absolute;
+}
+.sub-head h1{
+    padding-left: 200px;
+    padding-top: -1px;
+    font-weight: normal;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.2);
+    color: #c8a97e;
+   font-family: "Great Vibes", cursive;
+}
+.box1{
+height: 70px;
+width: 90%;
+display: flex;
+background-color: rgb(249, 249, 249);
+gap: 30px;
+padding-left: 20px;
+padding-top: 40px;
+}
+.First{
+height: 70px;
+width: 50%;
+background-color: rgb(255, 255, 255);
+}
+.inp1{
+font-size: 30px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+}
+.sub{
+padding-top: 10px;
+}
+.inp2{
+ height: 30px;
+ width: 250px;
+ padding-left: 30px;
+ font-size: 25px;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: italic;
+ border: 2px solid rgb(0, 0, 0);
+}
+.inp2:hover{
+border: 2px solid aqua;
+}
+.email{
+height: 70px;
+width: 50%;
+background-color: rgb(255, 255, 255);
+}
+.inp3{
+font-size: 30px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+}
+.sub-email{
+padding-top: 10px;
+}
+.inp4{
+ height: 30px;
+ width: 250px;
+ padding-left: 30px;
+ font-size: 25px;
+ font-family: 'Times New Roman', Times, serif;
+ font-style: italic;
+}
+.inp4:hover{
+border: 2px solid aqua;
+}
+.box2{
+height: 70px;
+width: 90%;
+display: flex;
+background-color: rgb(248, 252, 251);
+gap: 30px;
+padding-top: 30px;
+padding-left: 20px;
+}
+.add{
+height: 80px;
+width: 50%;
+background-color: rgb(255, 255, 255); 
+}
+.sub-add{
+padding-top: 10px;
+}
+.phone{
+height: 70px;
+width: 50%;
+background-color: rgb(255, 255, 255);
+padding-left: 20px;
+}
+.sub-phone{
+padding-top: 10px;
+}
+
+.inp5{
+font-size: 30px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+padding-bottom: 10px;
+}
+.inp5:hover{
+border: 2px solid aqua;
+}
+.inp6{
+height: 25px;
+width: 100%;
+font-size: 25px;
+background-color: aliceblue;
+padding-top: 5px;
+padding-left: 10px;
+}
+.inp6:hover{
+border: 2px solid aqua;
+}
+.inp7{
+font-size: 30px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+}
+.inp8{
+height: 25px;
+width: 100%;
+font-size: 25px;
+background-color: rgb(248, 252, 251);
+padding-top: 5px;
+border: 2px solid black;
+padding-left: 15px;
+}
+.inp8:hover{
+ border: 2px solid aqua;
+} 
+.box3{
+height: 70px;
+width: 90%;
+display: flex;
+background-color: rgb(248, 252, 251);
+gap: 30px;
+padding-top: 30px;
+padding-left: 20px;
+}
+.date{
+height: 80px;
+width: 50%;
+background-color: rgb(255, 255, 255); 
+}
+.sub-date{
+padding-top: 10px;
+}
+
+.time{
+height: 80px;
+width: 50%;
+background-color: rgb(255, 255, 255); 
+}
+.sub-time{
+padding-top: 10px;
+}
+.inp9{
+font-size: 30px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+}
+.inp10{
+height: 20px;
+width: 90%;
+background-color: rgb(248, 252, 251);
+font-size: 25px;
+padding-top: 10px;
+}
+.inp10:hover{
+border: 2px solid aqua;
+}
+.inp11{
+font-size: 30px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+padding-top: 5px;
+}
+.inp12{
+height: 34px;
+width: 90%;
+background-color: rgb(248, 252, 251);
+font-size: 25px;
+padding-top: 5px;
+}
+.inp12:hover{
+border: 2px solid aqua;
+}
+.box4{
+height: 70px;
+width: 90%;
+display: flex;
+background-color: rgb(248, 252, 251);
+gap: 30px;
+padding-top: 40px;
+}
+.cake{
+height: 80px;
+width: 50%;
+background-color: rgb(255, 255, 255); 
+padding-top: 1px;
+padding-left: 20px;
+}
+.weight{
+height: 80px;
+width: 50%;
+background-color: rgb(255, 255, 255); 
+padding-left: 25px;
+}
+.inp13{
+font-size: 25px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 1px;
+padding-top: 10px;
+}
+.cake-flavour{
+padding-top: 10px;
+}
+.weight-cake{
+padding-top: 10px;
+}
+.inp14{
+height: 30px;
+width: 90%;
+background-color: rgb(248, 252, 251);
+ font-size: 25px;
+padding-top: 0px;
+border: 2px solid black;
+}
+.inp14:hover{
+border: 2px solid aqua;
+}
+
+.inp15{
+font-size: 28px;
+font-style: italic;
+font-weight: lighter;
+padding-left: 5px;
+padding-top: 5px; 
+}
+.inp16{
+height: 30px;
+width: 90%;
+background-color: rgb(248, 252, 251);
+font-size: 25px;
+padding-top: 1px;
+border: 2px solid rgb(0, 0, 0);
+}
+.inp16:hover{
+border: 2px solid aqua;
+}
+.button{
+height: 150px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+padding-left: 10px;
+
+}
+.submit{
+height: 100px;
+width: 400px;
+background-color: rgb(255, 255, 255);
+padding-left: 170px;
+padding-top: 40px;
+}
+.button-submit{
+ height: 70px;
+ width: 200px;
+ background-color: black;
+ font-size: 25px;
+ color: white;
+ border-radius: 5px;
+}
+.button-submit:hover{
+color: aqua;
+border-bottom: 2px solid aqua;
+}
+.border{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  
+}
+.border a{
+    padding-left: 100px;
+    color: rgb(48, 49, 49);
+    font-size: 25px;
+}
+.border a:hover{
+        color: aqua;
+        
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 100vh;
+            width: 100%;
+        }
+         .main-service{
+            height: 200vh;
+            width: 100%;
+        }
+        .service{
+            height: 300px;
+            width: 100%;
+            background-image: url(contact2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+       .service-head{
+       
+        width: 400px;
+        height: 100px;
+        padding-left: 500px;
+        padding-right: 500px;
+       }
+       .service-head h1{
+        padding-left: 100px;
+        padding-top: 140px;
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: rgb(1, 252, 252);
+       }
+       .service-head h1:hover{
+        border-top: 2px solid aqua;
+        border-bottom: 2px solid aqua;
+        }
+       .lower_service{
+        height: 170vh;
+        width: 100%;
+        background-color: #c5eae7;
+       }
+       .lower-box{
+        padding-top: 90px;
+        padding-left: 120px;
+        height: 350px;
+        width: 100%;
+        background-color: rgb(222, 255, 255);
+        display: flex;
+        gap: 25px;
+       }
+       .box1{
+        height: 250px;
+        width: 250px;
+        background-color: black;
+        padding-left: 40px;
+        border: 1px solid black;
+       }
+       .box1 P{
+        font-size: 25px;
+        padding-left:8px;
+        padding-top: 100px;
+        color: rgb(3, 255, 251);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+       }
+       .box1 p:hover{
+        border-bottom: 1px solid aqua;
+       }
+       .box1 h2{
+        font-size: 48px;
+        padding-top: 10px;
+        padding-left: 70px;
+        color: rgb(1, 247, 255);
+        font-style: italic;
+       }
+       .box1 h2:hover{
+        border-bottom: 2px solid aqua;
+        
+       }
+       .box2{
+        height: 250px;
+        width: 250px;
+        background-color: #000000;
+        padding-left: 50px;
+        border: 1px solid black;
+       }
+       .box2 P{
+        font-size: 25px;
+        padding-left:1px;
+        padding-top: 100px;
+        color: rgb(0, 255, 238);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+       }
+       .box2 p:hover{
+        border-bottom: 1px solid aqua;
+       }
+       .box2 h2{
+        font-size: 48px;
+        padding-top: 10px;
+        padding-left: 70px;
+        color: rgb(0, 238, 238);
+        font-style: italic;
+       }
+       .box2 h2:hover{
+        border-bottom: 2px solid aqua;
+       }
+       .box3{
+        height: 250px;
+        width: 250px;
+        background-color: #000000;
+        padding-left: 50px;
+        border: 1px solid black;
+       }
+       .box3 P{
+        font-size: 25px;
+        padding-left:20px;
+        padding-top: 100px;
+        color: rgb(0, 255, 247);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+       }
+       .box3 p:hover{
+        border-bottom: 1px solid aqua;
+       }
+       .box3 h2{
+        font-size: 48px;
+        padding-top: 10px;
+        padding-left: 70px;
+        color: rgb(0, 231, 212);
+        font-style: italic;
+       }
+       .box3 h2:hover{
+        border-bottom: 2px solid aqua;
+       }
+       .box4{
+        height: 250px;
+        width: 250px;
+        background-color: #000000;
+        padding-left: 50px;
+        border: 1px solid black;
+       }
+       .box4 P{
+        font-size: 25px;
+        padding-left:15px;
+        padding-top: 100px;
+        color: rgb(0, 255, 251);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+       }
+       .box4 p:hover{
+        border-bottom: 1px solid aqua;
+       }
+       .box4 h2{
+        font-size: 48px;
+        padding-top: 10px;
+        padding-left: 40px;
+        color: rgb(0, 205, 205);
+        font-style: italic;
+      }
+      .box4 h2:hover{
+        border-bottom: 2px solid aqua;
+      }
+    .lower-right{
+        height: 120vh;
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        float: right;
+    }
+    .upper-img{
+        padding-left: 105px;
+        padding-top: 200px;
+    }
+    .lower-img1{
+        padding-left: 400px;
+        /* padding-top: 240px; */
+    }
+    .lower-left{
+        height: 100vh;
+        width: 50%;
+        background-color: aqua;
+        float: left;
+    }
+    .lower-head{
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+    .lower-head h3{
+        font-size: 25px;
+        color:  rgb(0, 255, 225);
+        font-style: italic;
+        padding-top: 50px;
+    }
+    .lower-head h2{
+        padding-top: 30px;
+        padding-left: 70px;
+        font-size: 40px;
+        color: rgb(0, 242, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    .lower-head h2:hover{
+        border-bottom: 2px solid aqua;
+    }
+    .lower-head p{
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 255, 242);
+    }
+    .main-upper{
+        padding-top: 40px;
+        width: 100%;
+    }
+    .upper-box{
+            height: 260px;
+            padding-top: 30px;
+            width: 98%;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            padding-left: 20px;
+            gap: 100px;
+    }
+    .box5{
+        border: 1px solid black;
+        height: 250px;
+        padding-left: 0;
+        width: 300px;
+        background-color: rgb(0, 0, 0);
+    }
+    .box5:hover{
+        border: 2px solid aqua;
+    }
+    .box5 h1{
+        padding-left: 25px;
+        padding-top: 30px;
+        color: #07f5f5;
+        font-size: 30px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box5 h1:hover{
+        border-bottom: 2px solid aqua;
+    }
+    .box5 P{
+        font-size: 25;
+        color: rgb(0, 234, 255);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box6{
+        border: 1px solid black;
+        height: 250px;
+        padding-left: 0;
+        width: 300px;
+        background-color: rgb(0, 0, 0);
+    }
+    .box6:hover{
+          border: 1px solid aqua;
+    }
+    .box6 h1{
+        padding-left: 20px;
+        padding-top: 40px;
+        font-size: 30px;
+        color: #07f5f5;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box6 h1:hover{
+        border-bottom: 1px solid aqua;
+    }
+    .box6 P{
+        font-size: 25;
+        color: rgb(0, 229, 255);
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .lower-box{
+            height: 380px;
+            padding-top: 30px;
+            width: 98%;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            padding-left: 20px;
+            gap: 100px;
+    }
+    .box7{
+        border: 1px solid black;
+        height: 250px;
+        padding-left: 0;
+        width: 300px;
+        background-color: rgb(0, 0, 0);
+    }
+    .box7:hover{
+        border: 1px solid aqua;
+    }
+    .box7 h1{
+        padding-left: 25px;
+        padding-top: 40px;
+        font-size: 30px;
+        color: #07f5f5;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box7 h1:hover{
+        border-bottom: 2px solid aqua;
+    }
+    .box7 P{
+        font-size: 25;
+        color: rgb(0, 238, 255);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box8{
+        border: 1px solid black;
+        height: 250px;
+        padding-left: 0;
+        width: 300px;
+        background-color: rgb(0, 0, 0);
+    }
+    .box8:hover{
+        border: 1px solid aqua;
+    }
+    .box8 h1{
+        padding-left: 25px;
+        padding-top: 40px;
+        color: #07f5f5;
+        font-size: 30px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box8 h1:hover{
+        border-bottom: 2px solid aqua;
+    }
+    .box8 P{
+        font-size: 25;
+        color: rgb(0, 255, 247);
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+       
+        <div class="service">
+              <div class="service-head">
+                      <h1>-- Service --</h1>
+              </div>
+        </div>
+    
+        <div class="lower_service">
+               <div class="lower-box">
+                 <div class="box1">
+                       <p>Year Experience</p>
+                       <h2>76</h2>
+                 </div>
+                 <div class="box2">
+                    <p>Skilled Professional</p>
+                    <h2>125</h2>
+                 </div>
+                 <div class="box3">
+                    <p>Total Products</p>
+                    <h2>45</h2>
+                 </div>
+                 <div class="box4">
+                    <p>order Everyday</p>
+                    <h2>1700</h2>
+                 </div>
+               </div>
+    
+               <div class="lower-set">
+                   <div class="lower-right">
+                            <div class="upper-img">
+                                <img src="5.png" height="300" width="300" alt="">
+                            </div>
+                            <div class="lower-img1">
+                                <img src="6.png" height="300" width="300" alt="">
+                            </div>
+                    </div>
+    
+                    <div class="lower-left">
+                        <div class="lower-head">
+                            <h3>//Our Services</h3>
+                            <h2>What Do We Offer For you?</h2>
+    
+                            <div class="main-upper">
+                                <div class="upper-box">
+                                    <div class="box5">
+                                        <h1>Quality Products</h1>
+                                        <p>In Our Bakery Quality product are Avilable.100% percent pure material are used in our Bakery</p>
+                                    </div>
+    
+                                    <div class="box6">
+                                        <h1>Custom Products</h1>
+                                        <p>there are variour Custom product are avilabel.there are various type of cake are avilable.</p>
+                                    </div>
+                               </div>
+    
+                               <div class="lower-box">
+                                   <div class="box7">
+                                    <h1>Online order</h1>
+                                    <p>In our Bakery online order are accpeted.you can give the choice than this type cake are created</p>
+                                   </div>
+    
+                                   <div class="box8">
+                                    <h1>Home delvery</h1>
+                                    <p>In  India First Home delvery bakery.your product delvery at your home</p>
+                                   </div>
+                               </div>
+    
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+    
+               </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
